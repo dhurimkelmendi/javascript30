@@ -1,0 +1,14 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "Coding with ES6 while following javascript30.com",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js"
+  },
+  "author": "Dhurim Kelmendi",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
